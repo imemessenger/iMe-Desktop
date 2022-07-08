@@ -1,6 +1,6 @@
 # [iMe Desktop][ime_desktop] – alternative desktop application client for the messaging service powered by the Telegram API
 
-This is the complete source code and the build instructions for the alpha version of the alternative desktop client for the [iMe][ime] messenger, based on the [Telegram API][telegram_api] and the [MTProto][telegram_proto] secure protocol.
+This is the complete source code and the build instructions for the alpha version of the alternative desktop client for the [iMe][ime] Messenger & Crypto Wallet, based on the [Telegram API][telegram_api] and the [MTProto][telegram_proto] secure protocol.
 
 [![Version](https://badge.fury.io/gh/telegramdesktop%2Ftdesktop.svg)](https://github.com/telegramdesktop/tdesktop/releases)
 [![Build Status](https://github.com/telegramdesktop/tdesktop/workflows/Windows./badge.svg)](https://github.com/telegramdesktop/tdesktop/actions)
