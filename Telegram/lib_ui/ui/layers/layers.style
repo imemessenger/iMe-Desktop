@@ -1,0 +1,208 @@
+// This file is part of Desktop App Toolkit,
+// a set of libraries for developing nice desktop applications.
+//
+// For license and copyright information please follow this link:
+// https://github.com/desktop-app/legal/blob/master/LEGAL
+//
+using "ui/basic.style";
+
+using "ui/widgets/widgets.style";
+
+ServiceCheck {
+	margin: margins;
+	diameter: pixels;
+	shift: pixels;
+	thickness: pixels;
+	tip: point;
+	small: pixels;
+	large: pixels;
+	stroke: pixels;
+	color: color;
+	duration: int;
+}
+
+Box {
+	buttonPadding: margins;
+	buttonHeight: pixels;
+	button: RoundButton;
+	margin: margins;
+	title: FlatLabel;
+	bg: color;
+	titleAdditionalFg: color;
+}
+
+boxDuration: 200;
+boxRadius: 8px;
+
+boxButtonFont: font(boxFontSize semibold);
+defaultBoxButton: RoundButton(defaultLightButton) {
+	width: -30px;
+	height: 34px;
+	textTop: 7px;
+	font: font(14px semibold);
+}
+
+boxLabelStyle: TextStyle(boxTextStyle) {
+	lineHeight: 22px;
+}
+
+attentionBoxButton: RoundButton(defaultBoxButton) {
+	textFg: attentionButtonFg;
+	textFgOver: attentionButtonFgOver;
+	textBgOver: attentionButtonBgOver;
+
+	ripple: RippleAnimation(defaultRippleAnimation) {
+		color: attentionButtonBgRipple;
+	}
+}
+
+defaultBoxCheckbox: Checkbox(defaultCheckbox) {
+	width: -46px;
+	textPosition: point(12px, 1px);
+	style: boxTextStyle;
+}
+
+boxRoundShadow: Shadow {
+	left: icon {{ "round_shadow_box_left", windowShadowFg }};
+	topLeft: icon {{ "round_shadow_box_top_left", windowShadowFg }};
+	top: icon {{ "round_shadow_box_top", windowShadowFg }};
+	topRight: icon {{ "round_shadow_box_top_left-flip_horizontal", windowShadowFg }};
+	right: icon {{ "round_shadow_box_left-flip_horizontal", windowShadowFg }};
+	bottomRight: icon {{ "round_shadow_box_bottom_left-flip_horizontal", windowShadowFg }};
+	bottom: icon {{ "round_shadow_box_bottom", windowShadowFg }};
+	bottomLeft: icon {{ "round_shadow_box_bottom_left", windowShadowFg }};
+	extend: margins(10px, 10px, 10px, 10px);
+	fallback: windowShadowFgFallback;
+}
+
+boxTitleFont: font(16px semibold);
+boxTitle: FlatLabel(defaultFlatLabel) {
+	textFg: boxTitleFg;
+	maxHeight: 24px;
+	style: TextStyle(defaultTextStyle) {
+		font: boxTitleFont;
+		linkFont: boxTitleFont;
+		linkFontOver: font(16px semibold underline);
+	}
+}
+boxTitlePosition: point(24px, 18px);
+boxTitleHeight: 48px;
+boxTitleAdditionalSkip: 9px;
+boxTitleAdditionalFont: normalFont;
+boxScroll: defaultSolidScroll;
+
+boxRowPadding: margins(24px, 0px, 24px, 0px);
+
+boxTopMargin: 8px;
+
+boxTitleClose: IconButton(defaultIconButton) {
+	width: boxTitleHeight;
+	height: boxTitleHeight;
+
+	icon: boxTitleCloseIcon;
+	iconOver: boxTitleCloseIconOver;
+
+	rippleAreaPosition: point(4px, 4px);
+	rippleAreaSize: 40px;
+	ripple: RippleAnimation(defaultRippleAnimation) {
+		color: windowBgOver;
+	}
+}
+
+boxLinkButton: LinkButton(defaultLinkButton) {
+	font: boxTextFont;
+	overFont: font(boxFontSize underline);
+}
+
+boxOptionListPadding: margins(0px, 0px, 0px, 0px);
+boxOptionListSkip: 20px;
+boxOptionInputSkip: 6px;
+
+boxWidth: 320px;
+boxWideWidth: 364px;
+boxPadding: margins(24px, 30px, 24px, 8px);
+boxMaxListHeight: 492px;
+boxLittleSkip: 10px;
+boxMediumSkip: 20px;
+
+defaultBox: Box {
+	buttonPadding: margins(6px, 10px, 10px, 10px);
+	buttonHeight: 34px;
+	button: defaultBoxButton;
+	margin: margins(0px, 10px, 0px, 10px);
+	bg: boxBg;
+	title: boxTitle;
+	titleAdditionalFg: boxTitleAdditionalFg;
+}
+layerBox: Box(defaultBox) {
+}
+boxLabel: FlatLabel(defaultFlatLabel) {
+	minWidth: 274px;
+	align: align(topleft);
+	style: boxLabelStyle;
+}
+boxDividerLabel: FlatLabel(boxLabel) {
+	minWidth: 245px;
+	align: align(topleft);
+	textFg: windowSubTextFg;
+	style: defaultTextStyle;
+}
+
+boxLoadingAnimation: InfiniteRadialAnimation(defaultInfiniteRadialAnimation) {
+	color: windowSubTextFg;
+	thickness: 2px;
+}
+boxLoadingSize: 20px;
+
+boxDividerTop: icon {{ "box_divider_top", boxDividerFg }};
+boxDividerBottom: icon {{ "box_divider_bottom", boxDividerFg }};
+boxDividerHeight: 10px;
+
+separatePanelBorderCacheSize: 60px;
+separatePanelTitleHeight: 62px;
+separatePanelClose: IconButton(boxTitleClose) {
+	width: 60px;
+	height: 60px;
+
+	rippleAreaPosition: point(8px, 8px);
+	rippleAreaSize: 44px;
+	ripple: RippleAnimation(defaultRippleAnimation) {
+		color: windowBgOver;
+	}
+}
+separatePanelMenu: IconButton(separatePanelClose) {
+	width: 44px;
+
+	icon: icon {{ "title_menu_dots", boxTitleCloseFg }};
+	iconOver: icon {{ "title_menu_dots", boxTitleCloseFgOver }};
+
+	rippleAreaPosition: point(0px, 8px);
+}
+separatePanelMenuPosition: point(0px, 52px);
+separatePanelTitleFont: font(18px semibold);
+separatePanelTitle: FlatLabel(defaultFlatLabel) {
+	textFg: boxTitleFg;
+	maxHeight: 26px;
+	style: TextStyle(defaultTextStyle) {
+		font: separatePanelTitleFont;
+		linkFont: separatePanelTitleFont;
+		linkFontOver: font(18px semibold underline);
+	}
+}
+separatePanelTitleTop: 18px;
+separatePanelTitleLeft: 22px;
+separatePanelTitleSkip: 0px;
+separatePanelBack: IconButton(separatePanelClose) {
+	icon: icon {{ "box_button_back", boxTitleCloseFg }};
+	iconOver: icon {{ "box_button_back", boxTitleCloseFgOver }};
+}
+separatePanelDuration: 150;
+
+webviewDialogButton: defaultBoxButton;
+webviewDialogSubmit: RoundButton(defaultActiveButton) {
+	width: -48px;
+	height: 34px;
+	textTop: 7px;
+	font: font(14px semibold);
+}
+webviewDialogPadding: margins(8px, 12px, 15px, 12px);

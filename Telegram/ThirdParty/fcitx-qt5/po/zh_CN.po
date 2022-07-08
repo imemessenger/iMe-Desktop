@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# csslayer <wengxt@gmail.com>, 2017
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
+"POT-Creation-Date: 2019-11-03 12:28-0800\n"
+"PO-Revision-Date: 2017-09-30 02:01+0000\n"
+"Last-Translator: csslayer <wengxt@gmail.com>, 2017\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/fcitx/teams/12005/"
+"zh_CN/)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: quickphrase-editor/editor.cpp:300
+#, kde-format
+msgid "%1 is a system file, do you want to delete all phrases instead?"
+msgstr "%1 是系统文件，您是否想要改为清空所有词组？"
+
+#: quickphrase-editor/editor.cpp:48
+msgid "&Add"
+msgstr "添加(&A)"
+
+#: quickphrase-editor/editor.cpp:49
+msgid "&Batch Edit"
+msgstr "批量编辑(&B)"
+
+#: guiwrapper/mainwindow.cpp:42
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: quickphrase-editor/editor.cpp:50
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: quickphrase-editor/editor.cpp:52
+msgid "&Import"
+msgstr "导入(&I)"
+
+#: quickphrase-editor/editor.cpp:54
+msgid "&Operation"
+msgstr "操作(&O)"
+
+#: guiwrapper/mainwindow.cpp:41
+msgid "&Reset"
+msgstr "重置(&R)"
+
+#: guiwrapper/mainwindow.cpp:40
+msgid "&Save"
+msgstr "保存(&S)"
+
+#: quickphrase-editor/editor.cpp:65
+msgid "Add File"
+msgstr "添加文件"
+
+#: quickphrase-editor/editor.cpp:311
+#, kde-format
+msgid "Are you sure to delete %1?"
+msgstr "您确定要删除 %1？"
+
+#: quickphrase-editor/editor.cpp:277
+#, kde-format
+msgid "Cannot create file %1."
+msgstr "无法创建文件 %1。"
+
+#: quickphrase-editor/editor.cpp:299
+msgid "Cannot remove system file"
+msgstr "无法移除系统文件"
+
+#: quickphrase-editor/editor.cpp:310
+msgid "Confirm deletion"
+msgstr "确认删除"
+
+#: quickphrase-editor/editor.cpp:260
+msgid "Create new file"
+msgstr "创建新文件"
+
+#: quickphrase-editor/editor.cpp:51
+msgid "De&lete All"
+msgstr "全部删除(&L)"
+
+#: quickphrase-editor/filelistmodel.cpp:42
+msgid "Default"
+msgstr "默认"
+
+#: quickphrase-editor/editor.cpp:53
+msgid "E&xport"
+msgstr "导出(&X)"
+
+#: quickphrase-editor/editor.cpp:318
+#, kde-format
+msgid "Error while deleting %1."
+msgstr "删除 %1 时出错。"
+
+#: quickphrase-editor/editor.cpp:276 quickphrase-editor/editor.cpp:317
+msgid "File Operation Failed"
+msgstr "文件操作失败"
+
+#: quickphrase-editor/editor.cpp:265
+msgid "File name should not contain '/'."
+msgstr "文件名不应该包括 “/”。"
+
+#: quickphrase-editor/editor.cpp:264
+msgid "Invalid filename"
+msgstr "文件名无效"
+
+#: quickphrase-editor/model.cpp:47
+msgid "Keyword"
+msgstr "关键字"
+
+#: quickphrase-editor/editordialog.cpp:28
+msgid "Keyword:"
+msgstr "关键字："
+
+#: quickphrase-editor/model.cpp:49
+msgid "Phrase"
+msgstr "词组"
+
+#: quickphrase-editor/editordialog.cpp:29
+msgid "Phrase:"
+msgstr "词组："
+
+#: quickphrase-editor/editor.cpp:260
+msgid "Please input a filename for newfile"
+msgstr "请输入新文件的文件名"
+
+#: quickphrase-editor/editor.cpp:138
+msgid "Quick Phrase Editor"
+msgstr "快速输入编辑器"
+
+#: quickphrase-editor/editor.cpp:68
+msgid "Refresh List"
+msgstr "刷新列表"
+
+#: quickphrase-editor/editor.cpp:66
+msgid "Remove File"
+msgstr "移除文件"
+
+#: quickphrase-editor/editor.cpp:122
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: quickphrase-editor/editor.cpp:123
+msgid ""
+"The content has changed.\n"
+"Do you want to save the changes or discard them?"
+msgstr ""
+"内容已更改。\n"
+"您想要保存还是撤销这些修改？"
+
+#: quickphrase-editor/batchdialog.cpp:31
+msgid "Use <Keyword> <Phrase> format on every line."
+msgstr "每行使用 <关键词> <词组> 的格式。"

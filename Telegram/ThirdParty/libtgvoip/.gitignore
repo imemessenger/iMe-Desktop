@@ -1,0 +1,50 @@
+.DS_Store
+bin
+.idea
+build
+*/Debug/*
+*/Release/*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Pp]review/
+[Pp]roduction/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+DerivedData/
+*.o
+
+# Visual Studio 2015 cache/options directory
+.vs/
+
+xcuserdata/
+
+# autoconf build files
+/Makefile
+/Makefile.in
+/aclocal.m4
+/autom4te.cache/
+/compile
+/config.*
+/configure
+/depcomp
+/install-sh
+/libtool
+/ltmain.sh
+/m4/
+/missing
+/stamp-h?
+.deps/
+.dirstamp
+.libs/
+*.l[ao]
+*~
+
+# generated pkg-config file
+/tgvoip.pc

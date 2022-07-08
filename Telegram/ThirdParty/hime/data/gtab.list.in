@@ -1,0 +1,32 @@
+# Do not use the escape character '\' as the key of the input method
+#英數 e !EN hime-tray.png
+內碼 0  intcode-module.so intcode.png
+倉頡 1 cj.gtab cj.png
+#五四三倉頡 2 cj543.gtab cj5.png
+倉五 2 cj5.gtab cj5.png
+注音 3 !PHO juyin.png
+小鍵盤 , symbols.gtab symbols.png
+#標點倉頡 4 cj-punc.gtab cj-punc.png
+# You can copy 符號表 from system symbol-table and put your own version in $HOME/.config/hime/
+符號表 4 !SYMBOL_TABLE symbols.png
+# 5 現在居然沒人用耶？
+#拼音 5 pinyin.gtab pinyin.png
+詞音 6 !TSIN tsin.png
+大易 7 dayi3.gtab dayi3.png
+行列 8 ar30.gtab ar30.png
+行列40 8 array40.gtab ar30.png
+#行列大字集 8 ar30-big.gtab ar30.png
+# Too many people depends on "嘸蝦米 9", kept for compatibility
+嘸蝦米 9 noseeing.gtab noseeing.png
+#標點簡易 - simplex-punc.gtab simplex.png
+速成(簡易) - simplex.gtab simplex.png
+日文 = anthy-module.so kana-nippon.png
+希臘文 ` greek.gtab greek.png
+世界文 w esperanto.gtab esperanto.png
+拉丁字母 a latin-letters.gtab latin-letters.png
+俄文 ? russian.gtab russian.png
+新酷音 [ chewing-module.so chewing.png
+韓羅 / hangul-roman.gtab hangul.png
+帶調粵拼 ] jyutping.gtab jyutping.png
+越南文 ' vims.gtab vims.png
+韓諺 . hangul.gtab hangul.png

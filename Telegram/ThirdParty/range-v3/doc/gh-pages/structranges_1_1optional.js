@@ -1,0 +1,28 @@
+var structranges_1_1optional =
+[
+    [ "emplace", "structranges_1_1optional.html#aca668b441f32ed44f9bf3c955c5853b7", null ],
+    [ "emplace", "structranges_1_1optional.html#aac8b52bbaa14c68a345380aea836181f", null ],
+    [ "explicit", "structranges_1_1optional.html#a66a2a8e78335db9212ec83332ebfbd72", null ],
+    [ "explicit", "structranges_1_1optional.html#a65a262aea8da1fec58a030f4f0c9e04c", null ],
+    [ "operator bool", "structranges_1_1optional.html#a7ede29c7f8c2232d733052da26bae9a3", null ],
+    [ "operator=", "structranges_1_1optional.html#a07be842734fc54b7ab3c29dc3d1cada8", null ],
+    [ "operator=", "structranges_1_1optional.html#a7085bfab95fb347c9f3d804a6c9acf35", null ],
+    [ "operator=", "structranges_1_1optional.html#ab9bdfa37af9ed07a6c14fa0df6895221", null ],
+    [ "operator=", "structranges_1_1optional.html#a82079fb1ce9584cb25ef19210c39753c", null ],
+    [ "operator=", "structranges_1_1optional.html#add413047c02730fa649eaa45bcf01e9e", null ],
+    [ "operator=", "structranges_1_1optional.html#ac7ef0ef5a8c0e5df62e86bfcb565634b", null ],
+    [ "value", "structranges_1_1optional.html#ab402b2f164a53e68f39efd2ea4daea23", null ],
+    [ "value", "structranges_1_1optional.html#afd15c3aa1ee08d5f67fcd1b141107cef", null ],
+    [ "value", "structranges_1_1optional.html#a777a66ba9f2920bbc3026b55a0743e94", null ],
+    [ "value", "structranges_1_1optional.html#ac08b1ed31e67e5185ca32bf5c9c43060", null ],
+    [ "value_or", "structranges_1_1optional.html#ab04df427fc578e8f53e63d73fe140122", null ],
+    [ "value_or", "structranges_1_1optional.html#a95173c81959eaca5c6cac15de292f524", null ],
+    [ "value_type", "structranges_1_1optional.html#aeda0f8cabc44f6bc3135b052905f65f8", null ],
+    [ "optional", "structranges_1_1optional.html#afe70cfb25197d36220c450856ffd9faf", null ],
+    [ "optional", "structranges_1_1optional.html#a78a32128ef557ddd769b6e4f84bc2002", null ],
+    [ "optional", "structranges_1_1optional.html#a50bd4938a812b0acf95a506d4501d358", null ],
+    [ "optional", "structranges_1_1optional.html#a1f1b588e9371fe7a9fca93d064152e84", null ],
+    [ "optional", "structranges_1_1optional.html#a52f91f8c83de596a9884e96081b4cc96", null ],
+    [ "optional", "structranges_1_1optional.html#ad94e35e452dea949a45954f3e9ad1ce6", null ],
+    [ "optional", "structranges_1_1optional.html#ad94e35e452dea949a45954f3e9ad1ce6", null ]
+];

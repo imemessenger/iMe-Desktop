@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# csslayer <wengxt@gmail.com>, 2017
+# scootergrisen, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
+"POT-Creation-Date: 2020-10-15 00:02-0700\n"
+"PO-Revision-Date: 2017-09-30 02:01+0000\n"
+"Last-Translator: scootergrisen, 2020\n"
+"Language-Team: Danish (https://www.transifex.com/fcitx/teams/12005/da/)\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: quickphrase-editor/editor.cpp:300
+#, kde-format
+msgid "%1 is a system file, do you want to delete all phrases instead?"
+msgstr "%1 er en systemfil - vil du slette alle fraser i stedet?"
+
+#: quickphrase-editor/editor.cpp:48
+msgid "&Add"
+msgstr "&Tilføj"
+
+#: quickphrase-editor/editor.cpp:49
+msgid "&Batch Edit"
+msgstr "&Batchredigering"
+
+#: guiwrapper/mainwindow.cpp:42
+msgid "&Close"
+msgstr "&Luk"
+
+#: quickphrase-editor/editor.cpp:50
+msgid "&Delete"
+msgstr "&Slet"
+
+#: quickphrase-editor/editor.cpp:52
+msgid "&Import"
+msgstr "&Importér"
+
+#: quickphrase-editor/editor.cpp:54
+msgid "&Operation"
+msgstr "&Handling"
+
+#: guiwrapper/mainwindow.cpp:41
+msgid "&Reset"
+msgstr "&Nulstil"
+
+#: guiwrapper/mainwindow.cpp:40
+msgid "&Save"
+msgstr "&Gem"
+
+#: quickphrase-editor/editor.cpp:65
+msgid "Add File"
+msgstr "Tilføj fil"
+
+#: quickphrase-editor/editor.cpp:311
+#, kde-format
+msgid "Are you sure to delete %1?"
+msgstr "Er du sikker på, at du vil slette %1?"
+
+#: quickphrase-editor/editor.cpp:277
+#, kde-format
+msgid "Cannot create file %1."
+msgstr "Kan ikke oprette filen %1."
+
+#: quickphrase-editor/editor.cpp:299
+msgid "Cannot remove system file"
+msgstr "Kan ikke fjerne systemfilen"
+
+#: quickphrase-editor/editor.cpp:310
+msgid "Confirm deletion"
+msgstr "Bekræft sletning"
+
+#: quickphrase-editor/editor.cpp:260
+msgid "Create new file"
+msgstr "Opret ny fil"
+
+#: quickphrase-editor/editor.cpp:51
+msgid "De&lete All"
+msgstr "Slet &alle"
+
+#: quickphrase-editor/filelistmodel.cpp:42
+msgid "Default"
+msgstr "Standard"
+
+#: quickphrase-editor/editor.cpp:53
+msgid "E&xport"
+msgstr "&Eksportér"
+
+#: quickphrase-editor/editor.cpp:318
+#, kde-format
+msgid "Error while deleting %1."
+msgstr "Fejl under sletning af %1."
+
+#: quickphrase-editor/editor.cpp:276 quickphrase-editor/editor.cpp:317
+msgid "File Operation Failed"
+msgstr "Filhandlingen mislykkedes"
+
+#: quickphrase-editor/editor.cpp:265
+msgid "File name should not contain '/'."
+msgstr "Filnavnet må ikke indeholde '/'."
+
+#: quickphrase-editor/editor.cpp:264
+msgid "Invalid filename"
+msgstr "Ugyldigt filnavn"
+
+#: quickphrase-editor/model.cpp:47
+msgid "Keyword"
+msgstr "Nøgleord"
+
+#: quickphrase-editor/editordialog.cpp:28
+msgid "Keyword:"
+msgstr "Nøgleord:"
+
+#: quickphrase-editor/model.cpp:49
+msgid "Phrase"
+msgstr "Frase"
+
+#: quickphrase-editor/editordialog.cpp:29
+msgid "Phrase:"
+msgstr "Frase:"
+
+#: quickphrase-editor/editor.cpp:260
+msgid "Please input a filename for newfile"
+msgstr "Skriv venligst et filnavn til den nye fil"
+
+#: quickphrase-editor/editor.cpp:138
+msgid "Quick Phrase Editor"
+msgstr "Hurtig fraseredigering"
+
+#: quickphrase-editor/editor.cpp:68
+msgid "Refresh List"
+msgstr "Genopfrisk liste"
+
+#: quickphrase-editor/editor.cpp:66
+msgid "Remove File"
+msgstr "Fjern fil"
+
+#: quickphrase-editor/editor.cpp:122
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: quickphrase-editor/editor.cpp:123
+msgid ""
+"The content has changed.\n"
+"Do you want to save the changes or discard them?"
+msgstr ""
+"Indholdet er blevet ændret.\n"
+"Vil du gemme ændringerne eller forkaste dem?"
+
+#: quickphrase-editor/batchdialog.cpp:31
+msgid "Use <Keyword> <Phrase> format on every line."
+msgstr "Brug formatet <nøgleord> <frase> på hver linje."

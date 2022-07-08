@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# csslayer <wengxt@gmail.com>, 2017
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
+"POT-Creation-Date: 2019-11-03 12:28-0800\n"
+"PO-Revision-Date: 2017-09-30 02:01+0000\n"
+"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017\n"
+"Language-Team: Catalan (https://www.transifex.com/fcitx/teams/12005/ca/)\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: quickphrase-editor/editor.cpp:300
+#, kde-format
+msgid "%1 is a system file, do you want to delete all phrases instead?"
+msgstr "%1 és un fitxer de sistema, voleu eliminar en canvi totes les frases?"
+
+#: quickphrase-editor/editor.cpp:48
+msgid "&Add"
+msgstr "&Afegeix"
+
+#: quickphrase-editor/editor.cpp:49
+msgid "&Batch Edit"
+msgstr "Edició per &lots"
+
+#: guiwrapper/mainwindow.cpp:42
+msgid "&Close"
+msgstr "Tan&ca"
+
+#: quickphrase-editor/editor.cpp:50
+msgid "&Delete"
+msgstr "&Elimina"
+
+#: quickphrase-editor/editor.cpp:52
+msgid "&Import"
+msgstr "&Importa"
+
+#: quickphrase-editor/editor.cpp:54
+msgid "&Operation"
+msgstr "&Operació"
+
+#: guiwrapper/mainwindow.cpp:41
+msgid "&Reset"
+msgstr "&Restableix"
+
+#: guiwrapper/mainwindow.cpp:40
+msgid "&Save"
+msgstr "De&sa"
+
+#: quickphrase-editor/editor.cpp:65
+msgid "Add File"
+msgstr "Afegeix un fitxer"
+
+#: quickphrase-editor/editor.cpp:311
+#, kde-format
+msgid "Are you sure to delete %1?"
+msgstr "Segur que voleu eliminar %1?"
+
+#: quickphrase-editor/editor.cpp:277
+#, kde-format
+msgid "Cannot create file %1."
+msgstr "No es pot crear el fitxer %1."
+
+#: quickphrase-editor/editor.cpp:299
+msgid "Cannot remove system file"
+msgstr "No es pot eliminar el fitxer de sistema"
+
+#: quickphrase-editor/editor.cpp:310
+msgid "Confirm deletion"
+msgstr "Confirma l'eliminació"
+
+#: quickphrase-editor/editor.cpp:260
+msgid "Create new file"
+msgstr "Crea un fitxer nou"
+
+#: quickphrase-editor/editor.cpp:51
+msgid "De&lete All"
+msgstr "E&limina tot"
+
+#: quickphrase-editor/filelistmodel.cpp:42
+msgid "Default"
+msgstr "Per defecte"
+
+#: quickphrase-editor/editor.cpp:53
+msgid "E&xport"
+msgstr "E&xporta"
+
+#: quickphrase-editor/editor.cpp:318
+#, kde-format
+msgid "Error while deleting %1."
+msgstr "S'ha produït un error quan s'estava eliminant %1."
+
+#: quickphrase-editor/editor.cpp:276 quickphrase-editor/editor.cpp:317
+msgid "File Operation Failed"
+msgstr "Ha fallat l'operació de fitxer"
+
+#: quickphrase-editor/editor.cpp:265
+msgid "File name should not contain '/'."
+msgstr "El nom de fitxer no hauria de contenir «'»."
+
+#: quickphrase-editor/editor.cpp:264
+msgid "Invalid filename"
+msgstr "Nom de fitxer no vàlid"
+
+#: quickphrase-editor/model.cpp:47
+msgid "Keyword"
+msgstr "Paraula clau"
+
+#: quickphrase-editor/editordialog.cpp:28
+msgid "Keyword:"
+msgstr "Paraula clau:"
+
+#: quickphrase-editor/model.cpp:49
+msgid "Phrase"
+msgstr "Frase"
+
+#: quickphrase-editor/editordialog.cpp:29
+msgid "Phrase:"
+msgstr "Frase:"
+
+#: quickphrase-editor/editor.cpp:260
+msgid "Please input a filename for newfile"
+msgstr "Si us plau entre un nom de fitxer per al fitxer nou"
+
+#: quickphrase-editor/editor.cpp:138
+msgid "Quick Phrase Editor"
+msgstr "Editor ràpid de frases"
+
+#: quickphrase-editor/editor.cpp:68
+msgid "Refresh List"
+msgstr "Actualitza la llista"
+
+#: quickphrase-editor/editor.cpp:66
+msgid "Remove File"
+msgstr "Elimina un fitxer"
+
+#: quickphrase-editor/editor.cpp:122
+msgid "Save Changes"
+msgstr "Desa els canvis"
+
+#: quickphrase-editor/editor.cpp:123
+msgid ""
+"The content has changed.\n"
+"Do you want to save the changes or discard them?"
+msgstr ""
+"El contingut ha canviat.\n"
+"Voleu desar els canvis o descartar-los?"
+
+#: quickphrase-editor/batchdialog.cpp:31
+msgid "Use <Keyword> <Phrase> format on every line."
+msgstr "Utilitza el format <Paraula clau><Frase> en cada línia."
