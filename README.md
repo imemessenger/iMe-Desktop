@@ -19,21 +19,6 @@ The latest version is available for
 * [Windows 7 and above (32 bit)](https://telegram.org/dl/desktop/win) ([portable](https://telegram.org/dl/desktop/win_portable))
 * [macOS 10.12 and above](https://telegram.org/dl/desktop/mac)
 * [Linux static build for 64 bit](https://telegram.org/dl/desktop/linux)
-* [Snap](https://snapcraft.io/telegram-desktop)
-* [Flatpak](https://flathub.org/apps/details/org.telegram.desktop)
-
-## Old system versions
-
-Version **2.4.4** was the last that supports older systems
-
-* [OS X 10.10 and 10.11](https://updates.tdesktop.com/tosx/tsetup-osx.2.4.4.dmg)
-* [Linux static build for 32 bit](https://updates.tdesktop.com/tlinux32/tsetup32.2.4.4.tar.xz)
-
-Version **1.8.15** was the last that supports older systems
-
-* [Windows XP and Vista](https://updates.tdesktop.com/tsetup/tsetup.1.8.15.exe) ([portable](https://updates.tdesktop.com/tsetup/tportable.1.8.15.zip))
-* [OS X 10.8 and 10.9](https://updates.tdesktop.com/tmac/tsetup.1.8.15.dmg)
-* [OS X 10.6 and 10.7](https://updates.tdesktop.com/tmac32/tsetup32.1.8.15.dmg)
 
 ## Third-party
 
@@ -69,7 +54,7 @@ Version **1.8.15** was the last that supports older systems
 
 [//]: # (LINKS)
 [ime]: https://imem.app
-[telegram_desktop]: https://imem.gitbook.io/faq-eng/general/platforms
+[ime_desktop]: https://imem.gitbook.io/faq-eng/general/platforms
 [telegram_api]: https://core.telegram.org
 [telegram_proto]: https://core.telegram.org/mtproto
 [license]: LICENSE
